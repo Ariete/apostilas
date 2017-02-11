@@ -2,16 +2,16 @@ public class teste{
 
 	public static void main(String[] args){
 
-		System.out.println("Alô Mundo!");
-		System.out.println("Alô Mundo!");
+		System.out.println("AlÃ´ Mundo!");
+		System.out.println("AlÃ´ Mundo!");
 		
-		System.out.println("Alô Mundo!");
-		System.out.println("Alô Mundo!");
+		System.out.println("AlÃ´ Mundo!");
+		System.out.println("AlÃ´ Mundo!");
 
-		System.out.println("Alô Mundo!");
-		System.out.println("Alô Mundo!");
-		System.out.println("Alô Mundo!");
-		System.out.println("Alô Mundo!");
+		System.out.println("AlÃ´ Mundo!");
+		System.out.println("AlÃ´ Mundo!");
+		System.out.println("SÃ³ um teste de mudanÃ§a");
+		System.out.println("Hello World!");
 
 
 	}
