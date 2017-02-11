@@ -10,8 +10,18 @@ public class teste{
 
 		System.out.println("Alô Mundo!");
 		System.out.println("Alô Mundo!");
+		System.out.println("Alô Mundo!");
+		System.out.println("Alô Mundo!");
 
 
 	}
+
+
+public void setStart(){
+		
+....
+
+}
+
 
 }
