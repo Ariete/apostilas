@@ -1,0 +1,115 @@
+body{
+  font-family: Montserrat, sans-serif;
+}
+  .container{
+    float: right;
+    width: 80%;
+    margin-right: 10%;
+  }
+
+  .headerGroup{
+    position: relative;
+    background-color: #514A9D;
+    border-color: #3498db;
+
+    /* CROSS BROWSERS */
+    /* Para browsers que não suportam gradientes */
+    /* Ver Prefixr CSS */
+    background: -webkit-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Para Safari 5.1 até 6.0 */
+    background: -o-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Para Opera 11.1 até 12.0 */
+    background: -moz-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Para Firefox 3.6 até 15 */
+    background: linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Sintaxe Standard (pode ser a última) */
+
+    margin-top: -5px;
+    min-height: 50px;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .headerGroup a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2pt;
+  }
+  .menuHeader{
+    float: right;
+    margin-right: 10%;
+  }
+
+  .menuHeader li{
+    display: inline;
+    padding: 10px;
+  }
+
+  .tit01{
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 15pt;
+    position: absolute;
+  }
+
+    .centerBox{
+    margin-top: 10%;
+    padding-left:15px;
+    padding-right: 15px;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    text-align: center;
+}
+  .centerBox h3{
+    font-size: 15pt;
+    font-weight: bolder;
+  }
+  .boxImg{
+    float: left;
+    margin-right: auto;
+    position: relative;
+    border: solid 1px #fff;
+    box-shadow: 2px 2px 2px #111;
+  }
+
+  .legImg{
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top:0px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+  }
+
+  .boxImg:hover .legImg{
+    opacity: 1;
+  }
+
+  .rodape{
+    background-color: #2f2f2f;
+    color: #555;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+
+    padding-bottom: 90px;
+  }
+
+  .blocos{
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+  }
+
+  .blocos ul{
+    list-style-type: none;
+  }
+  .rodape h4{
+    color: #ffffff;
+    font-weight: bolder;
+  }

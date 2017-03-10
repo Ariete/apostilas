@@ -1,0 +1,33 @@
+body{
+  font-family: Tahoma;
+}
+
+#menu-vert {
+  list-style: none;
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+
+}
+#menu-vert li{
+  display: inline;
+
+}
+#menu-vert li a{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+}
+#menu-vert li a:hover:not(#active){
+  background-color: #111;
+}
+
+#active{
+  background-color: #40B31B;
+  float: right;
+}
